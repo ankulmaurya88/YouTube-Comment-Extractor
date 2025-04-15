@@ -33,7 +33,7 @@ The **YouTube Comment Extractor** is a web-based application that allows users t
 
 
 
-### 🔹 Home Page (Input YouTube URL)
+### 🔹 Home Page 
 ![Input](assets/input.png)
 
 ### 🔹 Extracted Comments Displayed
