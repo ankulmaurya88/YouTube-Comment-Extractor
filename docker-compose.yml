@@ -1,0 +1,28 @@
+version: '3.3'
+
+services:
+  web:
+    build: .
+    container_name: ytcomment_scraper
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=True
+    depends_on:
+      - db
+    command: python manage.py runserver 0.0.0.0:8000
+
+  db:
+    image: postgres:13
+    container_name: ytcomment_db
+    environment:
+      POSTGRES_DB: ytcomments
+      POSTGRES_USER: ytuser
+      POSTGRES_PASSWORD: ytpass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

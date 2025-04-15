@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comments</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Comments for: {{ video_url }}</h2>
+        <ul class="comment-list">
+            {% for comment in comments %}
+                <li>{{ comment }}</li>
+            {% empty %}
+                <li>No comments found.</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'index' %}" class="back-link">← Back</a>
+    </div>
+</body>
+</html>
