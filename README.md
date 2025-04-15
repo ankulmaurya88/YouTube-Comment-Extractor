@@ -34,13 +34,13 @@ The **YouTube Comment Extractor** is a web-based application that allows users t
 > Place all screenshots in a `screenshots/` folder in your project root.
 
 ### 🔹 Home Page (Input YouTube URL)
-![Input](screenshots/input.png)
+![Input](assets/input.png)
 
 ### 🔹 Extracted Comments Displayed
-![Output Table](screenshots/output_table.png)
+![Output Table](assets/midoutput.png)
 
 ### 🔹 Export Comments Options
-![Download](screenshots/download.png)
+![Download](assets/midout.png)
 
 ---
 
