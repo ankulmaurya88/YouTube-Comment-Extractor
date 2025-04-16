@@ -108,7 +108,7 @@ cp .env.example .env
 # Edit the .env file and add your API key
 
 # Run the Flask app
-python app.py
+python3 manage.py runserver
 ```
 ---
 ## ✨ Docker Deployment
