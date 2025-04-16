@@ -39,8 +39,7 @@ The **YouTube Comment Extractor** is a web-based application that allows users t
 ### 🔹 Extracted Comments Displayed
 ![Output](assets/midoutput.png)
 
-### 🔹 Export Comments Options
-![Download](assets/midout.png)
+
 
 ---
 
